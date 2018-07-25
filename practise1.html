@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DropdownNAV</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+
+    <style>
+        body{
+
+            font-family: "Comic Sans MS", sans-serif;
+            margin: 0;
+
+        }
+        nav{
+            background-color: #81CAE6;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+
+        }
+        nav ul{
+            margin: 0;
+            list-style-type: none;
+
+
+
+
+
+
+
+        }
+        nav ul li{
+            float: left;
+
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            padding: 12px 25px;
+            font-size: 20px;
+            display: inline-block;
+
+
+
+        }
+        nav ul li a:hover{
+
+            background-color: orangered;
+            color: white;
+            border-radius: inherit;
+        }
+        .dropdown-list{
+            display: none;
+            position: absolute;
+            background-color: hotpink;
+
+        }
+
+        .dropdown-list a{
+
+            display: block;
+            color:whitesmoke;
+
+
+
+        }
+        .dropdown:hover .dropdown-list{
+            display: block;
+
+
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li>
+            <a href="#"><i class="fa fa-home"></i> Home</a>
+
+        </li>
+
+
+        <li class="dropdown">
+            <a href="#"><i class="fa fa-newspaper-o"></i> News</a>
+            <div class="dropdown-list">
+                <a href="#"><i class="fa fa-soccer-ball-o"></i>Sport</a>
+                <a href="#"><i class="fa fa-file-movie-o"></i>Movie</a>
+                <a href="#"><i class="fa fa-laptop"></i>Technology</a>
+                <a href="#"><i class="fa fa-cog"></i> Other</a>
+
+
+            </div>
+
+        </li>
+
+        <li>
+            <a href="#"><i class="fa fa-file"></i> About us</a>
+        </li>
+
+        <li>
+            <a href="#"><i class="fa fa-phone"></i> Contact us</a>
+
+        </li>
+
+        <li>
+            <a href="#"><i class="fa fa-credit-card"></i> Career</a>
+
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-book"></i> Course</a>
+
+        </li>
+
+
+
+
+
+
+
+
+    </ul>
+
+
+
+</nav>
+
+
+</body>
+</html>
