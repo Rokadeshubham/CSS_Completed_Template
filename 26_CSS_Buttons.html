@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Buttons</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+            padding: 20px;
+        }
+
+        .btn{
+
+            background-color: teal;
+            color: white;
+            border: none;
+            text-decoration: none;
+            font-family: "Comic Sans MS", sans-serif;
+            font-size: 20px;
+            padding: 10px 55px;
+            box-shadow: 0 0 5px green;
+            border-radius: 50px;
+
+        }
+        .btn-outline{
+
+            background-color: honeydew;
+            color: teal;
+            border: 2px solid teal;
+            text-decoration: none;
+            font-family: "Comic Sans MS", sans-serif;
+            font-size: 20px;
+            padding: 10px 55px;
+            box-shadow: 0 0 5px green;
+            border-radius: 50px;
+
+
+
+
+        }
+        .btn-outline:hover{
+            background-color: #4CAF50;
+            color: white;
+            border: 2px solid white;
+        }
+        .bs-btn{
+
+            color: white;
+            border: none;
+            text-decoration: none;
+            font-family: "Comic Sans MS", sans-serif;
+            font-size: 20px;
+            padding: 10px 55px;
+            box-shadow: 0 0 5px green;
+            border-radius: 50px;
+
+
+
+
+        }
+        .primary{
+
+            background-color: blue;
+        }
+        .secondary{
+            background-color: forestgreen;
+        }
+        .success{
+            background-color: purple;
+        }
+        .warning{
+            background-color: orangered;
+        }
+        .danger{
+            background-color: #b9dffd;
+        }
+
+        .bs-btn-outline{
+
+            border: 2px solid;
+            text-decoration: none;
+            font-family: "Comic Sans MS", sans-serif;
+            font-size: 20px;
+            padding: 10px 55px;
+            box-shadow: 0 0 5px green;
+            border-radius: 50px;
+
+
+
+
+        }
+        .outline-primary{color: blue;border-color: blue      }
+        .outline-secondary{color: purple;border-color: purple      }
+        .outline-success{color: red;border-color: red      }
+        .outline-warning{color: yellowgreen;border-color: yellowgreen      }
+        .outline-danger{color: cyan;border-color: cyan      }
+
+        .d-primary{background: linear-gradient(to right ,blue ,lightblue)}
+        .d-secondary{background: linear-gradient(to right ,purple ,mediumpurple)}
+        .d-success{background: linear-gradient(to right ,forestgreen ,lightgreen)}
+        .d-warning{background: linear-gradient(to right ,orangered ,orange)}
+        .d-danger{background: linear-gradient(to right ,red ,lightcoral)}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+<!-- Simple Buttons -->
+<h2>Simple Buttons</h2>
+<div>
+    <a href="#" class="btn">Link</a>
+    <button class="btn">Button</button>
+    <input class="btn" type="button" value="Input">
+</div>
+
+
+<!-- Simple Outline Buttons -->
+<h2>Simple Outline Buttons</h2>
+<div>
+    <a href="#" class="btn-outline">Link</a>
+    <button class="btn-outline">Button</button>
+    <input class="btn-outline" type="button" value="Input">
+</div>
+
+<!-- Bootstrap Buttons -->
+<h2>Bootstrap Buttons</h2>
+<div>
+    <button class="bs-btn primary">Primary</button>
+    <button class="bs-btn secondary">Secondary</button>
+    <button class="bs-btn success">Success</button>
+    <button class="bs-btn warning">Warning</button>
+    <button class="bs-btn danger">Danger</button>
+</div>
+
+<!-- Bootstrap Outline Buttons -->
+<h2>Bootstrap Outline Buttons</h2>
+<div>
+    <button class="bs-btn-outline outline-primary">Primary</button>
+    <button class="bs-btn-outline outline-secondary">Secondary</button>
+    <button class="bs-btn-outline outline-success">Success</button>
+    <button class="bs-btn-outline outline-warning">Warning</button>
+    <button class="bs-btn-outline outline-danger">Danger</button>
+</div>
+
+
+
+
+<!-- Bootstrap Buttons -->
+<h2>Bootstrap Buttons</h2>
+<div>
+    <button class="bs-btn d-primary">Primary</button>
+    <button class="bs-btn d-secondary">Secondary</button>
+    <button class="bs-btn d-success">Success</button>
+    <button class="bs-btn d-warning">Warning</button>
+    <button class="bs-btn d-danger">Danger</button>
+</div>
+
+
+
+
+
+
+</body>
+</html>
